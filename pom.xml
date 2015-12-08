@@ -1,14 +1,14 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.github.warmuuh</groupId>
-	<artifactId>libsass-maven-plugin</artifactId>
-	<version>0.1.6-libsass_3.2.4</version>
-	<packaging>maven-plugin</packaging>
+	<groupId>com.sjoerdmulder</groupId>
+	<artifactId>libsass</artifactId>
+	<version>0.1.6-1-libsass_3.2.4</version>
+	<packaging>jar</packaging>
 
-	<name>libsass plugin</name>
-	<description>Libsass plugin for maven</description>
-	<url>https://github.com/warmuuh/libsass-maven-plugin</url>
+	<name>libsass library</name>
+	<description>Libsass for Java</description>
+	<url>https://github.com/sjoerdmulder/libsass-maven-plugin</url>
 
 	<distributionManagement>
 		<repository>
@@ -57,16 +57,6 @@
 			<artifactId>jnaerator-runtime</artifactId>
 			<version>0.12</version>
 			<scope>compile</scope>
-		</dependency>
-		<dependency>
-			<groupId>org.apache.maven</groupId>
-			<artifactId>maven-plugin-api</artifactId>
-			<version>3.1.1</version>
-		</dependency>
-		<dependency>
-			<groupId>org.apache.maven</groupId>
-			<artifactId>maven-core</artifactId>
-			<version>3.1.1</version>
 		</dependency>
 		<dependency>
 			<groupId>junit</groupId>

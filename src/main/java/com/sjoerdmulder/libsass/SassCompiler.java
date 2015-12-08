@@ -1,16 +1,15 @@
-package wrm.libsass;
+package com.sjoerdmulder.libsass;
 
-import java.io.File;
-
+import com.sun.jna.Memory;
+import com.sun.jna.Native;
+import com.sun.jna.Pointer;
 import sass.SassLibrary;
 import sass.SassLibrary.Sass_Compiler;
 import sass.SassLibrary.Sass_Context;
 import sass.SassLibrary.Sass_File_Context;
 import sass.SassLibrary.Sass_Options;
 
-import com.sun.jna.Memory;
-import com.sun.jna.Native;
-import com.sun.jna.Pointer;
+import java.io.File;
 
 public class SassCompiler {
 

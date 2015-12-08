@@ -1,4 +1,4 @@
-package wrm.libsass;
+package com.sjoerdmulder.libsass;
 
 public class SassCompilerOutput {
 
